@@ -1,0 +1,20 @@
+{
+  "name": "felt-postcss-selection",
+  "version": "1.0.0",
+  "description": "PostCSS selection for Felt.",
+  "author": "Yusuke Takahashi <youthkee@gmail.com>",
+  "license": "MIT",
+  "main": "index.html",
+  "scripts": {
+    "start": "felt --config felt.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "felt-postcss": "^0.1.0",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-import": "^8.1.2",
+    "postcss-mixins": "^5.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^3.0.0"
+  }
+}
